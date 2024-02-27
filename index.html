@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Катерина</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">ЕКАТЕРИНА БУТУСОВА</div>
+    <img src="./me.jpg" alt="avatar" class="header__avatar" height="290" width="280" />
+
+    <div class="block">
+      <div class="block-title">QA-engineer</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="http://t.me/by_kates" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:katerinabyt@mail.ru">katerinabyt@mail.ru</a>
+        </div>
+          </a>
+        </div>
+        <div class="entry">
+          <a href="https://github.com/KatesBy" target="_blank">git</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">Обо мне
+      <p class="block-description">В прошлом инженер-теплоэнергетик в одной известной компании-производителе тепловой автоматики. Сейчас работаю в этой же компании на позиции QA-нженера web ресурсов уже 2,5 года. На проекте я много тестирую вручную: WEB через DevTools, c Backend работаю через Postman. Пишу простые автотесты в Postman на JavaScript. Тест-кейсы завожу – в Qase.io, завожу баг-репорты и беру задачи в Битриксе, документацию беру в Сonfluence, чек-листы составляю в Miro. Мои остальные хардскиллы: Jira, Notion, Swagger, DBeaver, Charles, PostgreSQL (запросы через Metabase), MongoDB (запросы через Compass), Kibana, Crafana, Sentry, Cypress, Selenium, Allure, Android studio, Docker. Кредо: главное не все знать, а не стесняться спросить :)
+ </p>
+    </div>
+      </div>
+    </div>
+  </body>
+</html>
